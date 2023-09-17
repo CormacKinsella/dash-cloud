@@ -3,9 +3,7 @@ from dash import html
 
 app = dash.Dash(__name__)
 
-app.layout = html.P("Testing cloud deploy")
-
-# Following line important for deployment
+app.layout = html.P("Testing cloud deploy. And this testing an app update.")
 server = app.server
 
 if __name__ == "__main__":
